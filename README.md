@@ -14,7 +14,6 @@ Cette application permet de tirer au sort 4 utilisateurs aléatoires chaque sema
 ## Technologies Utilisées
 - **Python 3** : Langage de programmation.
 - **SQLite** : Base de données pour stocker les utilisateurs et les tirages.
-- **Faker** : Génération de faux utilisateurs pour les tests.
 
 ## Prérequis
 
@@ -26,15 +25,7 @@ Cette application permet de tirer au sort 4 utilisateurs aléatoires chaque sema
 ### Bibliothèques Python à installer :
 Vous aurez besoin de la librairie `Faker` pour générer des faux utilisateurs.
 
-#### Installation des dépendances :
-
-Ouvrez un terminal dans le dossier de votre projet et exécutez la commande suivante pour installer `Faker` :
-
-```bash
-pip install faker
-```
-
-#### Étapes pour Exécuter le Projet
+## Étapes pour Exécuter le Projet
 
 1. **Cloner le projet** sur votre machine ou copier les fichiers source dans un dossier.
 
@@ -43,4 +34,27 @@ pip install faker
    ```bash
    git clone <URL_DU_REPOSITORY>
    ```
+2. **Créer un environnement virtuel** (optionnel mais recommandé)
 
+   Il est recommandé d'utiliser un environnement virtuel pour isoler les dépendances du projet. Voici comment en créer un :
+
+   ```bash
+   python -m venv env
+   env\Scripts\activate
+   ```
+   Cela créera un environnement virtuel dans le dossier et l'activera.
+
+3. **Exécuter le script principal**
+
+    Exécutez le fichier mainfile.py pour voir comment tout fonctionne. Cela permettra de :
+
+    1. Créer la base de données users.db (si elle n'existe pas déjà).
+    2. Ajouter des utilisateurs à la base de données.
+    3. Effectuer un tirage au sort parmi les utilisateurs.
+
+    Utilisez cette commande pour exécuter le script :  
+
+    ```bash
+    python mainfile.py
+    ```
+    Si tout est configuré correctement, le script affichera les utilisateurs ajoutés et le résultat du tirage au sort.
