@@ -1,6 +1,6 @@
 # Fellowship
 
-# Projet : Application de Tirage au Sort Aléatoire
+# Projet : Application kool
 
 ## Description
 Cette application permet de tirer au sort 4 utilisateurs aléatoires chaque semaine à partir d'une base de données. L'objectif est de créer un moment de convivialité entre personnes en télétravail. Les utilisateurs sont stockés dans une base de données SQLite, et l'application vérifie que les mêmes utilisateurs ne sont pas sélectionnés plusieurs fois avant que tout le monde ait été tiré au sort.
@@ -21,9 +21,6 @@ Cette application permet de tirer au sort 4 utilisateurs aléatoires chaque sema
 1. **Python 3.x** : [Télécharger Python ici](https://www.python.org/downloads/)
 2. **Pip** : Gestionnaire de packages Python (généralement installé avec Python).
 3. **Virtualenv (Optionnel)** : Pour créer un environnement virtuel propre à votre projet.
-
-### Bibliothèques Python à installer :
-Vous aurez besoin de la librairie `Faker` pour générer des faux utilisateurs.
 
 ## Étapes pour Exécuter le Projet
 
@@ -48,9 +45,9 @@ Vous aurez besoin de la librairie `Faker` pour générer des faux utilisateurs.
 
     Exécutez le fichier mainfile.py pour voir comment tout fonctionne. Cela permettra de :
 
-    1. Créer la base de données users.db (si elle n'existe pas déjà).
-    2. Ajouter des utilisateurs à la base de données.
-    3. Effectuer un tirage au sort parmi les utilisateurs.
+    - Créer la base de données users.db (si elle n'existe pas déjà).
+    - Ajouter des utilisateurs à la base de données.
+    - Effectuer un tirage au sort parmi les utilisateurs.
 
     Utilisez cette commande pour exécuter le script :  
 
