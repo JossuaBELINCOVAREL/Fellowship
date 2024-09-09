@@ -58,11 +58,11 @@ Cette application permet de tirer au sort 4 utilisateurs aléatoires chaque sema
 
 ## Personnalisation
 
-    Si vous souhaitez personnaliser le nombre d'utilisateurs tirés ou les règles de sélection, vous pouvez modifier le fichier tirage.py et adapter la logique en fonction de vos besoins.
+Si vous souhaitez personnaliser le nombre d'utilisateurs tirés ou les règles de sélection, vous pouvez modifier le fichier tirage.py et adapter la logique en fonction de vos besoins.
 
 ## Contribution
 
-    Si vous souhaitez contribuer à ce projet :
+Si vous souhaitez contribuer à ce projet :
 
    - Clonez le repository
    - Créez une nouvelle branche (git checkout -b ma-branche).
